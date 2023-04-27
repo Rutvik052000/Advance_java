@@ -5,6 +5,6 @@
  * @author rutik bhojane
  *
  */
-module jdbc_connection {
+module jdbc_Project {
 	requires java.sql;
 }
