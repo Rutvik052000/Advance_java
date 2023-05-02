@@ -12,7 +12,7 @@ public class EmployeeUpdate {
 
 	public static void main(String[] args) throws SQLException {
 		
-Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Enter a id");
 		int id = scanner.nextInt();
