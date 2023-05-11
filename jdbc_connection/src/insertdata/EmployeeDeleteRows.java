@@ -28,10 +28,10 @@ public class EmployeeDeleteRows {
 		PreparedStatement preparedStatement = connection.prepareStatement(query);
 		preparedStatement.setInt(1, id);
 		
-		int count = preparedStatement.executeUpdate();
+		int count = preparedStatement.executeUpdate(); //DML statement
 		
 		if(count ==1) {
-			System.out.println("Delete data sucessfully");
+			System.out.println("Delete data sucessfully"); 
 		}else {
 			System.out.println("Delete not do sucessfully");
 		}

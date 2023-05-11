@@ -33,6 +33,8 @@ public class EmployeeUpdate {
 		Connection connection = DriverManager.getConnection(url);
 		
 		PreparedStatement preparedStatement = connection.prepareStatement(query);
+		
+		
 		preparedStatement.setString(1,name);
 		preparedStatement.setLong(2,phone);
 		preparedStatement.setInt(3, salary);
